@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cartorio</string>
+    <string name="text1">Selecione um Serviço: </string>
+    <string name="text2">Selecione um Sub-Serviço: </string>
+    <string name="text3">Serviço: </string>
+    <string name="text4">Sub-Serviço: </string>
+    <string name="text5">Selecione o tipo de Atendimento: </string>
+    <string name="tipo_atendimento">Selecione o tipo de Atendimento:</string>
+    <string name="at_preferencial">Atendimento Preferencial</string>
+    <string name="at_normal">Atendimento Normal</string>
+    <string name="tipo_servico">Selecione o tipo de serviço</string>
+    <string name="botao_gerarsenha">Gerar Senha</string>
+    <string name="botao_painel">Mostrar Painel</string>
+    <string name="botao_cancelar">Cancelar</string>
+    <string name="senha">Senha: </string>
+    <string name="cadastro">Cadastrado em: </string>
+    <string name="previsaoI">Previsão de Início: </string>
+    <string name="previsaoF">Previsão de Término: </string>
+
+    <string-array name="tipo_servicos">
+        <item>Abertura de Firma</item>
+        <item>Reconhecimento de Firma</item>
+        <item>Procuração</item>
+        <item>Xerox Autenticada</item>
+        <item>Certidão de Nascimento</item>
+        <item>Certidão de Casamento</item>
+    </string-array>
+    <string-array name="tipo_atendimento">
+        <item>Preferencial</item>
+        <item>Normal</item>
+
+    </string-array>
+
+    <string-array name="tipo_subservicos">
+        <item>Abertura de Firma</item>
+        <item>Reconhecimento de Firma</item>
+        <item>Procuração</item>
+        <item>Xerox Autenticada</item>
+        <item>Certidão de Nascimento</item>
+        <item>Certidão de Casamento</item>
+    </string-array>
+
+</resources>

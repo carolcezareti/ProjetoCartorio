@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nome_servico" type="id">Nome do Serviço</item>
+    <item name="senha" type="id">Senha</item>
+    <item name="cadastro" type="id">Cadastro</item>
+    <item name="prevIA" type="id">Previsão Início</item>
+    <item name="prevFA" type="id">Previsão Fim</item>
+    <item name="gerar_senha" type="id">Gerar Senha</item>
+    <item name="detalhe_senha" type="id">Detalhe Senha</item>
+    <item name="tipo_servico" type="id">Tipo de Serviço</item>
+    <item name="previsao_inicio" type="id">Previsão Inicio</item>
+    <item name="previsao_termino" type="id">Previsão Término</item>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cartorio.devmob.ftce.usjt.br.cartorio.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/tipoatendimento"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:paddingTop="16dp"
+        android:text="@string/text5"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <Spinner
+        android:id="@+id/spinTipoAtendimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent" />
+
+
+    <TextView
+        android:id="@+id/texto_servico"
+        android:layout_width="261dp"
+        android:layout_height="52dp"
+        android:paddingTop="16dp"
+        android:text="@string/text1"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <Spinner
+        android:id="@+id/spinServicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dropDownWidth="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/gerarsenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:onClick="DetalheSenhaActivity"
+            android:text="@string/botao_gerarsenha"
+            tools:onClick="@string/botao_gerarsenha" />
+    </LinearLayout>
+
+</LinearLayout>

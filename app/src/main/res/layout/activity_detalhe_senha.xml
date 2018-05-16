@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cartorio.devmob.ftce.usjt.br.cartorio.controller.DetalheSenhaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/servico"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/text3"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <TextView
+        android:id="@+id/subservico"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/text4"
+        android:textAppearance="@android:style/TextAppearance" />
+
+    <TextView
+        android:id="@+id/tipoatendimento"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/text5"
+        android:textAppearance="@android:style/TextAppearance" />
+
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_at_pref"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:text="@string/at_preferencial" />
+
+            <RadioButton
+                android:id="@+id/radio_at_norm"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="@string/at_normal" />
+
+        </LinearLayout>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/senha"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <EditText
+        android:id="@+id/cadastrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:inputType="time"
+        android:text="Cadastrado em: "/>
+
+    <EditText
+        android:id="@+id/previsaoinicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:inputType="date"
+        android:text="Previsão de Início: "/>
+
+    <EditText
+        android:id="@+id/previsaofim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:inputType="date"
+        android:text="Previsão de Término"/>
+
+    <Button
+        android:id="@+id/painel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:onClick="MostrarPainelActivity"
+        android:text="@string/botao_painel"
+        tools:onClick="@string/botao_painel" />
+
+</LinearLayout>
